@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="demo" placeholder="Nhập gì cũng được">
+    <select id="currency1">
+        <option value="23000">VND</option>
+        <option value="1" selected>USD</option>
+        <option value="0.95">EURO</option>
+    </select>
+
+    <select id="currency2">
+        <option value="23000">VND</option>
+        <option value="1">USD</option>
+        <option value="0.95" selected>EURO</option>
+    </select>
+
+    <button onclick="check()">Check</button>
+
+    <script>
+        
+        function check() {
+            let type = document.getElementById("demo").type;
+            let currency1 = document.getElementById("currency1").value;
+            let currency2 = document.getElementById("currency2").value;
+           
+        }
+        
+    </script>
+</body>
+</html>
